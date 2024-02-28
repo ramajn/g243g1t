@@ -4,3 +4,32 @@
         body{
         background-color: black;
         }
+        .tablet{
+            display: none;
+        }
+        .Desktop{
+            display: none;
+        }
+        .barra{
+            width: 100%;
+            height: 50%;
+            background-color: peru;
+            text-align: center;
+        }
+        .mobile{
+            font-size: 48px;
+            color: aqua;
+        }
+        @media (min-width:720px){
+            .barra(
+                width: 80px;
+                background-color: black );
+        }
+        .mobile{
+            display: none;
+        }
+        .tablet{
+            display: inline;
+            front-sizw: 60px;
+            color: brown;
+        }
