@@ -1,3 +1,7 @@
+      .conteudo{
+        width: 100%;
+        text-align: center;
+      }
         button{
             background: greenyellow;
         }
@@ -38,10 +42,27 @@
                 height: 100px;
                 background-color: cadetblue;
             }
+            .tablet{
+                display: none;
+            }
+           .Desktop{
+               display:inline;
+               font-size: 90px;
+               color: blueviolet;
+            }
+            .conteudo{
+                
+            }
+            .tablet{
+                display: none;
+                font-size: 70px;
+                color: aqua;
+            }
+                .Desktop{
+                    display: none;
+                    font-size: 60px;
+                    color: blueviolet;
+                }
         }
-        .tablet{
-            display: none;
-        }
-        .mobile{
-           display:none;
-        }
+
+        
