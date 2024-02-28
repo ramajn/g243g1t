@@ -42,8 +42,6 @@
         .tablet{
             display: none;
         }
-        .Desktop{
-            display: inline;
-            font-size: 90px;
-            color: aliceblue;
+        .mobile{
+           display:none;
         }
