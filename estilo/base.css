@@ -33,3 +33,17 @@
             front-sizw: 60px;
             color: brown;
         }
+        @media(min-width:1228px){
+            .barra{
+                height: 100px;
+                background-color: cadetblue;
+            }
+        }
+        .tablet{
+            display: none;
+        }
+        .Desktop{
+            display: inline;
+            font-size: 90px;
+            color: aliceblue;
+        }
