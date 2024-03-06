@@ -1,68 +1,82 @@
-      .conteudo{
-        width: 100%;
-        text-align: center;
-      }
-        button{
-            background: greenyellow;
-        }
-        body{
-        background-color: black;
-        }
-        .tablet{
-            display: none;
-        }
-        .Desktop{
-            display: none;
-        }
-        .barra{
-            width: 100%;
-            height: 50%;
-            background-color: peru;
-            text-align: center;
-        }
-        .mobile{
-            font-size: 48px;
-            color: aqua;
-        }
-        @media (min-width:720px){
-            .barra(
-                width: 80px;
-                background-color: black );
-        }
-        .mobile{
-            display: none;
-        }
-        .tablet{
-            display: inline;
-            front-sizw: 60px;
-            color: brown;
-        }
-        @media(min-width:1228px){
-            .barra{
-                height: 100px;
-                background-color: cadetblue;
-            }
-            .tablet{
-                display: none;
-            }
-           .Desktop{
-               display:inline;
-               font-size: 90px;
-               color: blueviolet;
-            }
-            .conteudo{
-                
-            }
-            .tablet{
-                display: none;
-                font-size: 70px;
-                color: aqua;
-            }
-                .Desktop{
-                    display: none;
-                    font-size: 60px;
-                    color: blueviolet;
-                }
-        }
+.conteudo {
+    width: 100%;
+    text-align: center;
+}
+.btn {
+   margin-top: 100px;
+   background-color: rgb(24, 110, 38);
+   width: 50%;
+   font-size: 40px;
+}
+
+body {
+   background-color: rgb(155, 245, 167);
+}
+.tablet{
+   display: none;
+}
+.desktop {
+   display: none;
+}
+.barra {
+   width: 100%;
+   height: 60px;
+   background-color: rgb(168, 136, 197);
+   text-align: center;
+}
+.mobile {
+   font-size: 50px;
+   color: rgb(0, 0, 0);
+}
+@media (min-width: 720px) {
+   .barra{
+       height: 60px;
+       background-color: rgb(227, 180, 231);
+   
+}  
+.mobile{
+   display: none;
+}  
+.tablet {
+   display: inline;
+   font-size: 50px;
+   color: rgb(230, 196, 152);
+}
+.conteudo{
+   text-align: right;
+}
+.btn{
+   margin-top: 0px;
+   font-size: 24px;
+}
+}
+@media (min-width: 1228px) {
+   .barra {
+       height: 60px;
+       background-color: rgb(75, 12, 12);
+   }
+   .tablet {
+       display: inline;
+       font-size: 90px;
+       color: darkolivegreen;
+   }
+   .mobile{
+       display: none;
+   }  
+   .tablet {
+       display: none;
+       font-size: 60px;
+       color: burlywood;
+   }
+   .desktop{
+       display: inline;
+       font-size: 50px;
+       color: rgb(158, 153, 76);
+   }
+   .conteudo{
+       text-align: left;
+   }
+
+}
 
         
